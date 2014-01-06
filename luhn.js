@@ -1,4 +1,4 @@
-var calculateCheckDigit = function(number) {
+var calculateLuhnCheckDigit = function(number) {
 	var sum = 0;
 	var numberAsString = number.toString();	
 
@@ -23,4 +23,4 @@ var calculateCheckDigit = function(number) {
 	return sumAsString[sumAsString.length - 1];
 }
 
-module.exports = calculateCheckDigit;
+module.exports = calculateLuhnCheckDigit;
