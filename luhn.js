@@ -9,7 +9,7 @@ var calculateLuhnCheckDigit = function(number) {
 		}
 		else {
 			var sumOfDigits = parseInt(result) * 2;		
-		    if (sumOfDigits < 10){
+		    	if (sumOfDigits < 10){
 				sum += sumOfDigits;
 			}
 			else {
